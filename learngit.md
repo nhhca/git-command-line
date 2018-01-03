@@ -23,3 +23,9 @@
 16 git remote add origin https://github.com/xxx/xxx.git  ==> connect local  repository to remote
 17.git push -u origin master  ==> push local to remote first time
 18.git push origin master  ==>push local to remote after first time
+
+## the branch is only to check your daily work
+
+19.git checkout -b dev   ==> create and switch to dev branch
+20.git brach ==> check all the branch
+21.
