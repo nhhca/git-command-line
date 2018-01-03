@@ -11,5 +11,8 @@
 9. git log --pretty=oneline  ==>pretty show
 10. git reset --hard<version id>  ==>reset to specified version,even is desprecated version if you still know the version id
 11.git reflog   ==>to show every command you have write (to find the version you have lost )
-12.
+
+## notice    the difference between the check out branch
+12.git checkout --<file> ==> give up the change of the specific file at the workspace
+13. git checkout .  ==>give up all the changes at the workspace
 
