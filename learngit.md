@@ -9,4 +9,7 @@
 7. git diff  ==>difference
 8. git log ==>check history version
 9. git log --pretty=oneline  ==>pretty show
-10. 
+10. git reset --hard<version id>  ==>reset to specified version,even is desprecated version if you still know the version id
+11.git reflog   ==>to show every command you have write (to find the version you have lost )
+12.
+
