@@ -13,7 +13,8 @@
 11.git reflog   ==>to show every command you have write (to find the version you have lost )
 
 ## notice    the difference between the check out branch
-12.git checkout --<file> ==> give up the change of the specific file at the workspace
+12.git checkout --<file> ==> give up the change of the specific file at the workspace, and if you have delete some file wrong ,you can replace the workspace contents with the local repository contents
+
 13. git checkout .  ==>give up all the changes at the workspace
 
 14.git reset HEAD file  ==> to reset the stage content to workspace
