@@ -28,4 +28,5 @@
 
 19.git checkout -b dev   ==> create and switch to dev branch
 20.git brach ==> check all the branch
-21.
+21.git checkout<brachName> ==> switch to current branch
+
