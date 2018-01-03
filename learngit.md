@@ -17,3 +17,4 @@
 13. git checkout .  ==>give up all the changes at the workspace
 
 14.git reset HEAD file  ==> to reset the stage content to workspace
+15. git rm  ==>delete the file  at the local repository
