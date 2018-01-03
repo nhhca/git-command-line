@@ -19,3 +19,7 @@
 
 14.git reset HEAD file  ==> to reset the stage content to workspace
 15. git rm  ==>delete the file  at the local repository
+
+16 git remote add origin https://github.com/xxx/xxx.git  ==> connect local  repository to remote
+17.git push -u origin master  ==> push local to remote first time
+18.git push origin master  ==>push local to remote after first time
