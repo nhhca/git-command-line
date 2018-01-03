@@ -27,6 +27,7 @@
 ## the branch is only to check your daily work
 
 19.git checkout -b dev   ==> create and switch to dev branch
-20.git brach ==> check all the branch
+20.git branch ==> check all the branch
 21.git checkout<brachName> ==> switch to current branch
-
+22.git merge dev  ==>merge the dev to master
+23.git branch -d dev  ==>delete the dev branch
