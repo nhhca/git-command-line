@@ -29,7 +29,11 @@
 19.git checkout -b dev   ==> create and switch to dev branch
 20.git branch ==> check all the branch
 21.git checkout<brachName> ==> switch to current branch
-22.git merge dev  ==>merge the dev to master
-23.git branch -d dev  ==>delete the dev branch
+22.git merge dev  ==>merge the dev to current branch
+git merge --no-commit <branchName> ==> merge brachName to current brach
 
-24 git clone xxx.git "filepath"  ==>specify the filepath where you want to clone
+23.git branch -d dev  ==>delete the dev branch
+24. git clone xxx.git "filepath"  ==>specify the filepath where you want to clone
+25. git pull origin <origin branchName>:<local branchName> ==> if local branchName is nil,default to be local current branch
+26.git pull is equal to git fetch + git merge origin branch to current
+
