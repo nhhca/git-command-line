@@ -21,8 +21,8 @@
 15. git rm  ==>delete the file  at the local repository
 
 16 git remote add origin https://github.com/xxx/xxx.git  ==> connect local  repository to remote
-17.git push -u origin master  ==> push local to remote first time
-18.git push origin master  ==>push local to remote after first time
+17.git push -u origin master  ==> push local master branch to remote first time
+18.git push origin master  ==>push local master branch to remote after first time, need to connect local branch to remote ,see 32
 
 ## the branch is only to check your daily work
 
@@ -36,4 +36,24 @@ git merge --no-commit <branchName> ==> merge brachName to current brach
 24. git clone xxx.git "filepath"  ==>specify the filepath where you want to clone
 25. git pull origin <origin branchName>:<local branchName> ==> if local branchName is nil,default to be local current branch
 26.git pull is equal to git fetch + git merge origin branch to current
+27. git merge --no-ff -m "merge with no-ff" dev   ===>merge dev to current branch and forbid "fast forward"mode  add will commit with a new message
+
+28.git stash  ==>save current branch working space and the work space will be clean,function to create a new branch to fix some bug,and not to commit the workspace work that not finished
+29. git branch -d <branchName>  git branch -D <branchName> ==>delete forced
+
+## branch remote and local
+30.git remote -v  ==>check remote branch info
+31.git checkout -b dev origin/dev ==>create local dev branch and switch to it
+32.git branch --set-upstream branch-name origin/branch-name  ==> if pull failed ,this command will connect local branch with remote appropriate branch
+
+## git tag:replace commit id with tag will be much more easy
+33.git tag<name> ==> add a tag name
+34.$ git tag <name> <commit id>  default tag at latest commit,this will tag at specific commit
+35.git tag -a <tag name> -m "message" <commit id>
+36. git tag  ==>show all tag
+37.git show <tag name> ==>see the tag info,tag is not ordered by time but charactors
+38.git tag -d <tag name> ==>delete a tag local,tag default not push to remote
+39.git push origin :refs/tags/<tagname>  ==> if tag name is push to remote ,delete local first,then delete remote
+40.git push origin <tag name>
+41.git push origin --tags ==>push all tags once
 
