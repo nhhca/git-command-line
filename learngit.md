@@ -31,3 +31,5 @@
 21.git checkout<brachName> ==> switch to current branch
 22.git merge dev  ==>merge the dev to master
 23.git branch -d dev  ==>delete the dev branch
+
+24 git clone xxx.git "filepath"  ==>specify the filepath where you want to clone
