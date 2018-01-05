@@ -33,5 +33,6 @@
 23.git branch -d dev  ==>delete the dev branch
 
 24 git clone xxx.git "filepath"  ==>specify the filepath where you want to clone
+25.git log --graph  ==>see graphical of the branch merging
 
 
