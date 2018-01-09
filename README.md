@@ -51,9 +51,13 @@
 34.  git tag <name> <commit id>  default tag at latest commit,this will tag at specific commit
 35. git tag -a <tag name> -m "message" <commit id>
 36. git tag  ==>show all tag
+
 37. git show <tag name> ==>see the tag info,tag is not ordered by time but charactors
 38. git tag -d <tag name> ==>delete a tag local,tag default not push to remote
 39. git push origin :refs/tags/<tagname>  ==> if tag name is push to remote ,delete local first,then delete remote
 40. git push origin <tag name>
 41. git push origin --tags ==>push all tags once
+
+42. git log --graph  ==>see graphical of the branch merging
+
 
