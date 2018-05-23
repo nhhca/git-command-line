@@ -1,4 +1,4 @@
- 
+
 ##  git command line
 1. git add<file> =>specified single file
 2. git add .  =>to add all file
@@ -28,7 +28,7 @@
 
 19. git checkout -b dev   ==> create and switch to dev branch
 20. git branch ==> check all the branch
-21. git checkout<brachName> ==> switch to current branch
+21. git checkout `brachName` ==> switch to `brachName` branch
 22. git merge dev  ==>merge the dev to current branch
 22. git merge --no-commit <branchName> ==> merge brachName to current brach
 
