@@ -28,21 +28,25 @@
 
 19. git checkout -b dev   ==> create and switch to dev branch
 20. git branch ==> check all the branch
+
 21. git checkout `brachName` ==> switch to `brachName` branch, when switch branch please commit your change first
 22. git merge dev  ==>merge the dev to current branch
 22. git merge --no-commit `branchName` ==> merge brachName to current brach
-
 23. git branch -d dev  ==>delete the dev branch,you’d better delete it after you merge to master
+23. git branch -D `branchName` ==>delete forced
+
 24. git clone xxx.git "filepath"  ==>specify the filepath where you want to clone
 25. git pull origin <origin branchName>:<local branchName> ==> if local branchName is nil,default to be local current branch
 26. git pull is equal to git fetch + git merge origin branch to current
 27. git merge --no-ff -m "merge with no-ff" dev   ===>merge dev to current branch and forbid "fast forward"mode  add will commit with a new message
 
 28. git stash  ==>save current branch working space and the work space will be clean,function to create a new branch to fix some bug,and not to commit the workspace work that not finished
-29. git branch -d <branchName>  git branch -D <branchName> ==>delete forced
+
 
 ## branch remote and local
-30. git remote -v  ==>check remote branch info
+
+30. git remote -v  ==>check remote branch link info
+30. git branch –r  ==> check remote branch info
 31. git checkout -b dev origin/dev ==>create local dev branch and switch to it
 32. git branch --set-upstream branch-name origin/branch-name  ==> if pull failed ,this command will connect local branch with remote appropriate branch
 
@@ -61,4 +65,4 @@
 42. git log --graph  ==>see graphical of the branch merging
 
 
-43. 新加的一些东西
+
