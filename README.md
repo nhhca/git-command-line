@@ -29,7 +29,7 @@
 19. git checkout -b dev   ==> create and switch to dev branch
 20. git branch ==> check all the branch
 21. git checkout `brachName` ==> switch to `brachName` branch
-22. git merge dev  ==>merge the dev to current branch
+22. git merge dev  ==>merge the dev to current branch (master)
 22. git merge --no-commit <branchName> ==> merge brachName to current brach
 
 23. git branch -d dev  ==>delete the dev branch,you’d better delete it after you merge to master
@@ -61,4 +61,4 @@
 42. git log --graph  ==>see graphical of the branch merging
 
 
-43. 新加的一些东西
+
