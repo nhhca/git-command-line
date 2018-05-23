@@ -40,6 +40,7 @@
 24. git push origin test:master    ==> push test to remote master(as master)
 25. git push origin :test  ==>delete remote test branch 
 25. git push origin --delete test  ==>delete remote test branch 
+25. git checkout origin/`remote_branch_name` ==>  checkout remote branch
 
 24. git clone xxx.git "filepath"  ==>specify the filepath where you want to clone
 25. git pull origin <origin branchName>:<local branchName> ==> if local branchName is nil,default to be local current branch
