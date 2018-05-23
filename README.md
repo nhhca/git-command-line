@@ -1,5 +1,5 @@
 
-##  git command line
+## add,commit ,log ,reset
 1. git add<file> =>specified single file
 2. git add .  =>to add all file
 3. git commit -m "your message"  =>commit with message
@@ -9,10 +9,10 @@
 7. git diff  ==>difference
 8. git log ==>check history version
 9. git log --pretty=oneline  ==>pretty show
-10. git reset --hard<version id>  ==>reset to specified version,even is desprecated version if you still know the version id
+10. git reset --hard `version id`  ==>reset to specified version,even is desprecated version if you still know the version id
 11. git reflog   ==>to show every command you have write (to find the version you have lost )
 
-## notice    the difference between the check out branch
+## notice  the difference between the check out branch
 12. git checkout --<file> ==> give up the change of the specific file at the workspace, and if you have delete some file wrong ,you can replace the workspace contents with the local repository contents
 
 13. git checkout .  ==>give up all the changes at the workspace
@@ -28,7 +28,8 @@
 
 19. git checkout -b dev   ==> create and switch to dev branch
 20. git branch ==> check all the branch
-21. git branch -a ==> check local and remote branch
+20. git brach -a ==>branch local and remote
+
 21. git checkout `brachName` ==> switch to `brachName` branch, when switch branch please commit your change first
 22. git merge dev  ==>merge the dev to current branch
 22. git merge --no-commit `branchName` ==> merge brachName to current brach
