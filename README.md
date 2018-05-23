@@ -26,9 +26,6 @@
 
 ## the branch is only to check your daily work
 
-jjdjdsjjdjjsdhfak
-
-
 19. git checkout -b dev   ==> create and switch to dev branch
 20. git branch ==> check all the branch
 21. git checkout `brachName` ==> switch to `brachName` branch
@@ -64,3 +61,4 @@ jjdjdsjjdjjsdhfak
 42. git log --graph  ==>see graphical of the branch merging
 
 
+43. 新加的一些东西
