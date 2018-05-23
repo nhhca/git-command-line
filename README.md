@@ -28,9 +28,9 @@
 
 19. git checkout -b dev   ==> create and switch to dev branch
 20. git branch ==> check all the branch
-21. git checkout `brachName` ==> switch to `brachName` branch
+21. git checkout `brachName` ==> switch to `brachName` branch, when switch branch please commit your change first
 22. git merge dev  ==>merge the dev to current branch
-22. git merge --no-commit <branchName> ==> merge brachName to current brach
+22. git merge --no-commit `branchName` ==> merge brachName to current brach
 
 23. git branch -d dev  ==>delete the dev branch,you’d better delete it after you merge to master
 24. git clone xxx.git "filepath"  ==>specify the filepath where you want to clone
