@@ -1,6 +1,5 @@
 
-##  git command line
-
+## add,commit ,log ,reset
 1. git add<file> =>specified single file
 2. git add .  =>to add all file
 3. git commit -m "your message"  =>commit with message
@@ -10,19 +9,11 @@
 7. git diff  ==>difference
 8. git log ==>check history version
 9. git log --pretty=oneline  ==>pretty show
-
 10. git reset --hard `version id`  ==>reset to specified version,even is desprecated version if you still know the version id
 11. git reflog   ==>to show every command you have write (to find the version you have lost )
 
 ## notice  the difference between the check out branch
 1. git checkout --<file> ==> give up the change of the specific file at the workspace, and if you have delete some file wrong ,you can replace the workspace contents with the local repository contents
-
-10. git reset --hard<version id>  ==>reset to specified version,even is desprecated version if you still know the version id
-11. git reflog   ==>to show every command you have write (to find the version you have lost )
-
-## notice    the difference between the check out branch
-12. git checkout --<file> ==> give up the change of the specific file at the workspace, and if you have delete some file wrong ,you can replace the workspace contents with the local repository contents
-
 
 13. git checkout .  ==>give up all the changes at the workspace
 
@@ -31,7 +22,6 @@
 
 16. git remote add origin https://github.com/xxx/xxx.git  ==> connect local  repository to remote
 17. git push -u origin master  ==> push local master branch to remote first time
-
 18. git push origin master  ==>push local master branch to remote after first time, need to connect local branch to remote 
 
 ## the branch is only to check your daily work
@@ -52,26 +42,12 @@
 25. git push origin --delete test  ==>delete remote test branch 
 25. git checkout origin/`remote_branch_name` ==>  checkout remote branch
 
-
-18. git push origin master  ==>push local master branch to remote after first time, need to connect local branch to remote ,see 32
-
-## the branch is only to check your daily work
-
-19. git checkout -b dev   ==> create and switch to dev branch
-20. git branch ==> check all the branch
-21. git checkout `brachName` ==> switch to `brachName` branch
-22. git merge dev  ==>merge the dev to current branch (master)
-22. git merge --no-commit <branchName> ==> merge brachName to current brach
-
-23. git branch -d dev  ==>delete the dev branch,you’d better delete it after you merge to master
-
 24. git clone xxx.git "filepath"  ==>specify the filepath where you want to clone
 25. git pull origin <origin branchName>:<local branchName> ==> if local branchName is nil,default to be local current branch
 26. git pull is equal to git fetch + git merge origin branch to current
 27. git merge --no-ff -m "merge with no-ff" dev   ===>merge dev to current branch and forbid "fast forward"mode  add will commit with a new message
 
 28. git stash  ==>save current branch working space and the work space will be clean,function to create a new branch to fix some bug,and not to commit the workspace work that not finished
-
 
 
 ## branch remote and local
@@ -82,17 +58,6 @@
 
 ## git tag:replace commit id with tag will be much more easy
 1. git tag<name> ==> add a tag name
-
-29. git branch -d <branchName>  git branch -D <branchName> ==>delete forced
-
-## branch remote and local
-30. git remote -v  ==>check remote branch info
-31. git checkout -b dev origin/dev ==>create local dev branch and switch to it
-32. git branch --set-upstream branch-name origin/branch-name  ==> if pull failed ,this command will connect local branch with remote appropriate branch
-
-## git tag:replace commit id with tag will be much more easy
-33. git tag<name> ==> add a tag name
-
 34.  git tag <name> <commit id>  default tag at latest commit,this will tag at specific commit
 35. git tag -a <tag name> -m "message" <commit id>
 36. git tag  ==>show all tag
